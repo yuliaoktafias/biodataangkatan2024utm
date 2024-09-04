@@ -1,0 +1,49 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: kanit;
+  color: rgb(0, 0, 0);
+}
+body {
+  background-color: #ffffff;
+}
+
+
+/* biodata diri */
+.wfrab {
+    display: flex;
+    justify-content: center;
+}
+.wfrab img {
+ border-radius: 50%;
+}
+
+/* biodata teman */
+
+.biodatateman h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: #000000;
+  margin-top: 2rem;
+  align-items: center;
+} 
+
+.biodatateman img {
+  width: 140px;
+  height: 140px;
+  margin-left: 20px;
+  border-radius: 100px;
+}
+
+.biodatateman p {
+  font-size: 1.2rem;
+} 
+ 
+.biodatateman table {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
